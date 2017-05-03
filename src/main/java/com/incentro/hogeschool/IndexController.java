@@ -10,4 +10,7 @@ public class IndexController {
     public String index() {
         return "index";
     }
+
+    @RequestMapping("/teamalpha")
+    public String teamAlpha(){ return "teamalpha";}
 }
