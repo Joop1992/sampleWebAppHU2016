@@ -8,7 +8,7 @@
 
 <table>
     <td>
-        <tr>Joop Vriezen</tr>
+        <tr>Joop Vriezen was here!</tr>
     </td>
 </table>
 </body>
