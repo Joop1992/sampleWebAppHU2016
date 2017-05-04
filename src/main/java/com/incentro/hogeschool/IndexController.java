@@ -11,6 +11,13 @@ public class IndexController {
         return "index";
     }
 
+<<<<<<< HEAD
     @RequestMapping("/teamalpha")
     public String teamAlpha(){ return "teamalpha";}
+=======
+    @RequestMapping("/empty")
+    public String empty() {
+        return "empty";
+    }
+>>>>>>> 88656096f1e93bf9f80145996c49f3447d541637
 }
