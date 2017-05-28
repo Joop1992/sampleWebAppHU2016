@@ -9,6 +9,7 @@ public class MessageAdvice {
 
     @ModelAttribute("message")
     public String message(@Value("${application.message:Hello World}") String message) {
+		System.out.println("Hoi");
         return message;
     }
 
